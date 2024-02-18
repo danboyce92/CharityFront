@@ -1,0 +1,20 @@
+@import "./components/landing.scss";
+@import "./components/nav-bar.scss";
+
+.fonts {
+    font-family: "Zen Dots", sans-serif;
+    font-family: "Jacques Francois", serif;
+    font-family: "Itim", sans-serif;
+};
+
+.colors {
+    color: #020887;
+    color: #334195;
+    color: #91F5AD;
+    color: #F0C808;
+    color: #D1345B;
+}
+
+html {
+    background: #000;
+}

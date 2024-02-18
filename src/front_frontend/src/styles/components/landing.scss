@@ -1,0 +1,60 @@
+
+#landing {
+
+    background-image: url(../../images/landing.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    overflow: hidden;
+
+    #shader {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        z-index: -1;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #welcome-post {
+        margin: auto;
+        margin-top: 10rem;
+        width: 60%;
+        height: 500px;
+        background-color: rgba(31, 31, 80, .6);
+        border-radius: 8px;
+        border: 1px solid #2A417D;
+        color: white;
+        text-align: center;
+        font-family: "Itim", sans-serif;
+        font-size: 1.5rem;
+        z-index: 2;
+
+        .sentence {
+            margin: 2rem 3rem;
+        }
+
+        #landing-title {
+            font-family: "Zen Dots", sans-serif;
+            text-align: center;
+            font-size: 2rem;
+            letter-spacing: .5rem;
+        }
+    }
+
+    #background {
+
+        #bground-img {
+            position: absolute;
+            bottom: 0;
+            width:clamp(800px, 100%, 100vw);
+            
+        }
+    }
+
+}
+
