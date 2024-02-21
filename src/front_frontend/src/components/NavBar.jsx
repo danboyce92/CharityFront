@@ -7,6 +7,12 @@ const NavBar = () => {
             LEMBAS
         </div>
         <div>
+          <ul>
+            <li>Events</li>
+            <li>About us</li>
+            <li>FAQ</li>
+            <li>Login</li>
+          </ul>
 
         </div>
     </div>
