@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import { front_backend } from 'declarations/front_backend';
+import { Route, Routes, BrowserRouter  } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Landing from './components/Landing';
+import Events from './components/Events';
 
 function App() {
   const [greeting, setGreeting] = useState('');
@@ -16,9 +18,14 @@ function App() {
   }
 
   return (
-    <main>
+    <main className="App">
+      <BrowserRouter>
       <NavBar />
-      <Landing />
+      <Routes>
+        <Route path='/' element={<Landing />} />
+        <Route path='events' element={<Events />} />
+      </Routes>
+      </BrowserRouter>
     </main>
   );
 }
