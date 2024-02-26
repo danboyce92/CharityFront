@@ -3,7 +3,7 @@ import { front_backend } from 'declarations/front_backend';
 import { Route, Routes, BrowserRouter  } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Landing from './components/Landing';
-import Events from './components/Events';
+import Events from './components/events/Events';
 
 function App() {
   const [greeting, setGreeting] = useState('');
