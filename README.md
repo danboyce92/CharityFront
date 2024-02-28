@@ -68,3 +68,6 @@ Things that need to be done
 - Wire up an approve function from the canister to the deposit button and verify it approves whoever is logged into II
 - After verifying that the approve function works, Create a function that deposits the funds from the II to the canister.
 - Create an object that stores info on the 4 different charities and send them to the frontend to be displayed
+
+
+**There is an issue with using Internet Identity locally but it's supposed to be patched by March 4th**
