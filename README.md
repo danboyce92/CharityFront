@@ -61,6 +61,7 @@ If you are hosting frontend code somewhere without using DFX, you may need to ma
 
 
 # Moving Forward
+Refer to to do list doc on discord..
 Events page has been laid out so now I can start focusing on wiring up the canister to the frontend
 
 Things that need to be done
