@@ -70,5 +70,7 @@ Things that need to be done
 - After verifying that the approve function works, Create a function that deposits the funds from the II to the canister.
 - Create an object that stores info on the 4 different charities and send them to the frontend to be displayed
 
+-MOVE THIS TO NEW REPO & CLEAN UP
+
 
 **There is an issue with using Internet Identity locally but it's supposed to be patched by March 4th**
