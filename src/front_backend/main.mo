@@ -47,4 +47,12 @@ actor {
       };
     };
   };
+
+  //Next implement NFID Below
+  //Test to see that it works and create an account
+
+
+  //Now implement a deposit function using 
+  //icrc2_approve & icrc2_transfer
+
 };
