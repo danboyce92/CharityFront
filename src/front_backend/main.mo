@@ -68,6 +68,7 @@ actor Main {
   //icrc2_approve & icrc2_transfer
 
     //Create approve function
+    //Test approve function being called from frontend
     public shared ({ caller }) func approveFunc(): async Types.Result_1 {
         let canisterP = Principal.fromActor(Main);
         let amount = 100_000_000;
@@ -86,6 +87,8 @@ actor Main {
         return approveFunc;
 
     };
+
+    //Transfer
 
 
 };
